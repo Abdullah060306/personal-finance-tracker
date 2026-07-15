@@ -53,7 +53,8 @@ def reports():
                          month_data=month_data,
                          cat_data=cat_data,
                          current_month=current_month)
-
-if __name__ == '__main__':
-    initialize_data_file()
-    app.run(debug=True)
+    if __name__ == '__main__':
+        initialize_data_file()
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
