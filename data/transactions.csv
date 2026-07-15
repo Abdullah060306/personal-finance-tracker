@@ -1,0 +1,7 @@
+date,amount,category,description,type
+2026-07-15,300000.0,Salary,monthly sal,income
+2026-07-15,500.0,Food,lunch,expense
+2026-07-15,500.0,Transport,petrol,expense
+2026-07-15,250.0,Food,lunch',expense
+2026-07-15,20000.0,Shopping,monthly shopping,expense
+2026-07-15,600000.0,Salary,total salary,income
